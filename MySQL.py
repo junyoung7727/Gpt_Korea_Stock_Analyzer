@@ -7,7 +7,7 @@ from datetime import datetime
 
 class SqlConnect():
     def __init__(self):
-        self.engine = create_engine('mysql+pymysql://root:wjdwnsdud727%40%21@127.0.0.1/krx_daily_data')
+        self.engine = create_engine('User MySql Engine')
         self.metadata = MetaData()
         self.status_table_name = "update_status"
         self.create_status_table()
